@@ -8,7 +8,6 @@ import {
   List,
   ListItem,
   ListItemAvatar,
-  ListItemButton,
   ListItemText,
   Stack,
   Switch,
@@ -26,7 +25,7 @@ export function Products({ title = "Produtos", data = [] }) {
   }
 
   return (
-    <Stack spacing={2} direction="column">
+    <Stack spacing={2} direction="column" sx={{ flex: 1 }}>
       <Stack
         spacing={2}
         direction="row"

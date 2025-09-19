@@ -28,7 +28,9 @@ function App() {
   ];
 
   return (
-    <Container>
+    <Container
+      sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+    >
       <Header title="Loja Exemplo" />
       <Products title="Promoção" data={data} />
       <Footer>Todos os direitos reservados.</Footer>
